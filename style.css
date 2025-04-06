@@ -1,0 +1,599 @@
+* {
+    margin: 0%;
+
+}
+
+body {
+
+    background-color: #0f0f0f;
+    padding-bottom: 100px;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-pesquisa {
+
+flex: 1;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-right: 120px;
+margin-top: none;
+
+}
+
+#input1 {
+
+border-radius: 30px;
+width: 500px;
+height: 40px;
+padding-left: 15px;
+padding-bottom: 3px;
+border-color: rgb(58, 54, 54);
+background-color: transparent;
+border: 1px solid;
+border-color: rgb(49, 49, 49);
+outline: none;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+color: white;
+font-size: 15px ;
+flex-wrap: wrap;
+
+}
+
+#input1[type=search]:focus {
+
+border-color: rgb(56, 56, 180);
+box-shadow: 0 0 0 0.5px rgba(0, 123, 255, 0.4);
+transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+#input1[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+.ytb-logo img {
+
+width: 150px;
+height: auto;
+margin-left: 55px;
+transition: transform 0.3 ease;
+cursor: pointer;
+flex-wrap: wrap;
+
+}
+
+.user-logo img {
+
+width: 30px;
+margin-right: 45px;
+transition: transform 0.3s ease;
+cursor: pointer;
+flex-wrap: wrap;
+}
+
+.user-logo img:hover {
+
+transform: scale(1.1);
+
+}
+
+.alerta img{
+
+width: 50px;
+margin-right: 13px;
+transition: transform 0.3s ease;
+cursor: pointer;
+flex-wrap: wrap;
+}
+
+.alerta img:hover {
+
+    transform: scale(1.1);
+
+}
+
+.enviar img {
+
+width: 44px;
+margin-right: 7px;
+margin-top: 2px;
+transition: transform 0.3s ease;
+cursor: pointer;
+flex-wrap: wrap;
+}
+
+.enviar img:hover {
+
+transform: scale(1.1);
+}
+.btn-lupa {
+
+    background: none;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: background-color 0.3s ease;
+    flex-wrap: wrap;
+  }
+
+.btn-lupa:hover {
+
+    background-color: rgb(49, 49, 49);
+
+  }
+
+.btn-mic {
+
+    background: none;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: background-color 0.3s ease;
+    flex-wrap: wrap;
+
+  }
+
+.btn-mic:hover {
+
+    background-color: rgb(49, 49, 49);
+
+  }
+
+.video-section {
+
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+#jp-video {
+
+    width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+
+#title {
+
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 22px;
+    flex-wrap: wrap;
+}
+
+.recomend {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 29px;
+    flex-wrap: wrap;
+}
+
+.patrocinio img {
+
+    width: 500px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform ease 0.3s;
+    flex-wrap: wrap;
+}
+
+.patrocinio img:hover {
+
+    transform: scale(1.02);
+
+}
+
+.conteudo {
+
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.lado-direito {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.filtros {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: white;
+    font-family: arial;
+    margin-top: 25px;
+    font-size: 11px;
+    margin-left: 0px;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+#A1 {
+
+    transition: background-color 0.3s ease;
+    max-width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+#A1:hover {
+    background-color: rgb(49, 49, 49);
+
+}
+
+#A2 {
+
+    transition: background-color 0.3s ease;
+    max-width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+#A2:hover {
+    background-color: rgb(49, 49, 49);
+
+}
+
+#A3 {
+
+    transition: background-color 0.3s ease;
+    max-width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+#A3:hover {
+    background-color: rgb(49, 49, 49);
+
+}
+
+#A4 {
+
+    transition: background-color 0.3s ease;
+    max-width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+#A4:hover {
+    background-color: rgb(49, 49, 49);
+
+}
+
+.videos-lista {
+
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.video-card {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 13px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.video-card:hover {
+
+transform: scale(1.03);
+
+}
+
+h3 {
+
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.t1 {
+
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+
+a {
+    text-decoration: none; 
+    color: inherit;       
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sub-infos {
+
+    display: flex;
+    flex-direction: column;
+    color: rgb(116, 116, 116);
+    margin-top: 5px;
+
+}
+
+.infos-title {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.infs {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn-inscrever img {
+
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.btn-inscrever img:hover {
+
+    transform: scale(1.03);
+
+}
+
+.btn-like img{
+
+    width: 170px;
+    height: auto;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: 290px;
+    transition: transform 0.3s ease;
+
+}
+
+.btn-like img:hover {
+
+    transform: scale(1.03);
+
+}
+
+.compartilhar img {
+
+    width: 150px;
+    margin-top: 6px;
+    margin-left: -15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.compartilhar img:hover {
+
+    transform: scale(1.03);
+
+
+}
+
+.desc {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 49, 49);
+    margin-left: 155px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.infos-view {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    gap: 20px;
+   
+}
+
+.infos-view-subtitle {
+
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    font-size: 13px;
+    gap: 5px;
+
+}
+
+#link1 {
+
+    color: rgb(87, 146, 255);
+}
+
+.mais {
+
+    cursor: pointer;
+
+}
+
+.span1 {
+
+    color: rgb(87, 146, 255);
+    cursor: pointer;
+}
+
+.comentarios {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    margin-top: 30px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.coments-title {
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.order-filter1 img{
+
+    width: 140px;
+    margin-top: -3px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}  
+
+.order-filter1 img:hover {
+
+    transform: scale(1.02);
+
+}
+
+.coments-user {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: -10px;
+
+}
+
+#user-logo-coment {
+
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#user-logo-coment:hover {
+
+    transform: scale(1.03);
+
+}
+
+.your-coment {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.your-coment form {
+
+    flex: 1;
+
+
+}
+
+.users-coment {
+
+    margin-top: 30px;
+
+
+}
+
+#input2 {
+
+border-radius: 30px;
+width: 900px;
+height: 40px;
+padding-left: 15px;
+padding-bottom: 3px;
+background-color: transparent;
+border: none;
+border-bottom: 1px solid rgb(49, 49, 49);
+outline: none;
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+color: white;
+font-size: 15px ;
+flex-wrap: wrap;
+transition: border-bottom 0.3s ease;
+
+}
+
+#input2:focus {
+
+border-bottom: 1px solid rgb(87, 146, 255);
+
+
+}
+.japa-capa {
+
+    display: flex;
+    gap: 10px;
+    color: white;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.japa-capa img{
+
+    width: 60px;
+    cursor: pointer;
+
+}
+
+.japa-capa:hover {
+
+    transform: scale(1.05);
+
+}
+
+.plyr {
+   
+    border-radius: 10px;
+}
+
+:root {
+    --plyr-color-main: #e50914;
+  }
