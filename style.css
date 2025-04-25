@@ -597,3 +597,181 @@ border-bottom: 1px solid rgb(87, 146, 255);
 :root {
     --plyr-color-main: #e50914;
   }
+
+@media (max-width: 1024px) {
+    .video-section {
+        margin-left: 80px;
+    }
+    
+    #jp-video {
+        width: 800px;
+    }
+    
+    .conteudo {
+        margin-right: 50px;
+        gap: 30px;
+    }
+    
+    .patrocinio img {
+        width: 400px;
+    }
+    
+    .infos-title {
+        margin-left: 80px;
+    }
+    
+    .desc {
+        margin-left: 80px;
+    }
+    
+    .comentarios {
+        margin-left: 80px;
+    }
+    
+    #input2 {
+        width: 700px;
+    }
+    
+    .btn-like img {
+        margin-left: 150px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .ytb-logo img {
+        margin-left: 20px;
+        width: 120px;
+    }
+    
+    .container-pesquisa {
+        margin-right: 0;
+        order: 3;
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    #input1 {
+        width: 100%;
+    }
+    
+    .user-logo img, 
+    .alerta img, 
+    .enviar img {
+        margin-right: 15px;
+    }
+    
+    .video-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #jp-video {
+        width: 100%;
+    }
+    
+    .conteudo {
+        flex-direction: column;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+    
+    .recomend {
+        justify-content: center;
+    }
+    
+    .patrocinio img {
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .infos-title {
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .btn-like img {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    
+    .desc {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .comentarios {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #input2 {
+        width: 100%;
+    }
+    
+    .filtros {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .ytb-logo img {
+        width: 100px;
+        margin-left: 10px;
+    }
+    
+    .user-logo img {
+        width: 25px;
+        margin-right: 10px;
+    }
+    
+    .alerta img {
+        width: 40px;
+        margin-right: 8px;
+    }
+    
+    .enviar img {
+        width: 36px;
+        margin-right: 5px;
+    }
+    
+    .video-section {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    
+    #title {
+        font-size: 18px;
+    }
+    
+    .video-card {
+        flex-direction: column;
+    }
+    
+    .t1 {
+        width: 100%;
+    }
+    
+    .btn-inscrever img,
+    .btn-like img,
+    .compartilhar img {
+        width: 120px;
+    }
+    
+    .order-filter1 img {
+        width: 100px;
+    }
+    
+    .japa-capa img {
+        width: 50px;
+    }
+}
